@@ -11,6 +11,7 @@ img_as_arr = mpimg.imread(image_path)
 print(img_as_arr.shape)
 
 # show image
-plt.imshow(img_as_arr/255)
+plt.imshow(img_as_arr)
+# plt.colorbar()
 plt.show()
 # plt.savefig("image1.jpg")
